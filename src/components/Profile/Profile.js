@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import s from './Profile.module.css';
 
-console.log(s);
 
 export default function Profile({ username, tag, location, avatar, stats }) {
-    return <div className={s.profile}>
+    return (
+    <div className={s.profile}>
     <div className={s.description}>
       <img
         src={avatar}
@@ -31,6 +31,7 @@ export default function Profile({ username, tag, location, avatar, stats }) {
       </li>
     </ul>
   </div>
+    )
 }
 
 Profile.propTypes = {

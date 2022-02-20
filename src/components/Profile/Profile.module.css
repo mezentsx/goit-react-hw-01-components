@@ -1,8 +1,7 @@
 .profile {
-  font-family: Roboto;
   background-color: white;
   max-width: 350px;
-  box-shadow: 0px 10px 30px 10px rgb(165, 163, 163);
+  box-shadow: 0px 10px 30px 5px rgb(165, 163, 163);
   border-radius: 20px;
   margin-top: 40px;
   padding-top: 30px;
